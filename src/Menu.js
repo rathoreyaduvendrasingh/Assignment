@@ -6,7 +6,7 @@ const Menu = () => {
         <div>
             <nav>
                 <div className="logoeast">
-                <img src="/icon1.jpg"></img>
+                <img src="/icon1.jpg" alt=""></img>
                 <p className="eastry">Eastatery</p>
                 </div>
                 <ul className="list">
