@@ -10,9 +10,9 @@ const Card = ({price,owner,description,bed,bath,breadth,height,imgurl}) => {
         if(true){
             return(
                 <div>
-                    <div style={{"font-size":"13px","color":"white","background-color":"rgb(137, 132, 211)","position":"absolute","top":"70.5%","width":"100px","border-radius":"5px","box-shadow":"-10px 0px 0px 0px rgb(137, 132, 211)"}}>
+                    <div style={{"fontSize":"13px","color":"white","backgroundColor":"rgb(137, 132, 211)","position":"absolute","top":"70.5%","width":"100px","borderRadius":"5px","boxShadow":"-10px 0px 0px 0px rgb(137, 132, 211)"}}>
                     <AutoAwesomeIcon />
-                    <p style={{"display":"inline","font-weight":"bold"}}>POPULAR</p>
+                    <p style={{"display":"inline","fontWeight":"bold"}}>POPULAR</p>
                     </div>
                 </div>
                 

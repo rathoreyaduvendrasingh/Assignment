@@ -22,7 +22,7 @@ const Menu = () => {
                     <li className="list_item">
                         <div className="toShow">
                         <a className="nav-link">ManageProduct</a>
-                        <div class="arrow">
+                        <div className="arrow">
                         <KeyboardArrowDownIcon />
                         </div>
                         
@@ -32,7 +32,7 @@ const Menu = () => {
                     <li className="list_item">
                     <div className="toShow">
                         <a className="nav-link">Resources</a>
-                        <div class="arrow">
+                        <div className="arrow">
                         <KeyboardArrowDownIcon />
                         </div>
                         </div>
