@@ -11,17 +11,17 @@ const Menu = () => {
                 </div>
                 <ul className="list">
                     <li className="list_item">
-                        <a className="nav-link active">Rent</a>
+                        <a className="nav-link active" href="#">Rent</a>
                     </li>
                     <li className="list_item">
-                    <a className="nav-link">Buy</a>
+                    <a className="nav-link" href="#">Buy</a>
                     </li>
                     <li className="list_item">
-                    <a className="nav-link">Sell</a>
+                    <a className="nav-link" href="#">Sell</a>
                     </li>
                     <li className="list_item">
                         <div className="toShow">
-                        <a className="nav-link">ManageProduct</a>
+                        <a className="nav-link" href="#">ManageProduct</a>
                         <div className="arrow">
                         <KeyboardArrowDownIcon />
                         </div>
@@ -31,7 +31,7 @@ const Menu = () => {
                     </li>
                     <li className="list_item">
                     <div className="toShow">
-                        <a className="nav-link">Resources</a>
+                        <a className="nav-link" href="#">Resources</a>
                         <div className="arrow">
                         <KeyboardArrowDownIcon />
                         </div>
