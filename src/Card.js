@@ -22,7 +22,7 @@ const Card = ({price,owner,description,bed,bath,breadth,height,imgurl}) => {
     return (
         <div className="Maincard"> 
             <form>
-            <img className = "card"src={imgurl}></img>
+            <img className = "card" src={imgurl} alt=""></img>
                 <div className="cardbody">
                     <div className="Details">
                         <p className="CardPrice">${price}</p>
