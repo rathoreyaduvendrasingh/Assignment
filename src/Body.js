@@ -8,9 +8,9 @@ import Card from "./Card";
 const Body = () => {
   const [dateValue,setDate] = useState("Select Move-in date");
   const [val,setval] = useState(false);
-  const [min,setmin] = useState("500");
+  const [min] = useState("500");
   const [mid,setmid] = useState("5000");
-  const [max,setmax] = useState("5000");
+  const [max] = useState("5000");
   const [priceval,setpriceVal] = useState(false);
   const [proptype,setproptype] = useState("House");
   const [dochangeprop,setchangeprop] = useState(false);
